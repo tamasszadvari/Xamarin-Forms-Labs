@@ -219,7 +219,7 @@ namespace XLabs.Forms.Controls
         {
             if (Control != null) 
             {
-                this.Control.LoadData(html, "text/html", "UTF-8");
+                this.Control.LoadData(html, "text/html; charset=UTF-8", null);
             }
         }
 
